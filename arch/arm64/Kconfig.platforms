@@ -96,6 +96,15 @@ config MACH_SONY_MAPLE
 	If you enable this config,
 	please use SONY Mobile device tree.
 
+config MACH_SONY_MAPLE_DCM
+        bool "Sony Mobile Maple Dcm"
+        depends on ARCH_SONY_YOSHINO
+        help
+        Support for the SONY Mobile Dcm device
+        which is based on SONY Yoshino platform.
+        If you enable this config,
+        please use SONY Mobile device tree.
+
 config MACH_SONY_MAPLE_DSDS
 	bool "Sony Mobile Maple Dsds"
 	depends on ARCH_SONY_YOSHINO
@@ -114,6 +123,15 @@ config MACH_SONY_POPLAR
 	If you enable this config,
 	please use SONY Mobile device tree.
 
+config MACH_SONY_POPLAR_DCM
+        bool "Sony Mobile Poplar Dcm"
+        depends on ARCH_SONY_YOSHINO
+        help
+        Support for the SONY Mobile Poplar Dcm device
+        which is based on SONY Yoshino platform.
+        If you enable this config,
+        please use SONY Mobile device tree.
+
 config MACH_SONY_POPLAR_DSDS
 	bool "Sony Mobile Poplar Dsds"
 	depends on ARCH_SONY_YOSHINO
@@ -131,6 +149,15 @@ config MACH_SONY_LILAC
 	which is based on SONY Yoshino platform.
 	If you enable this config,
 	please use SONY Mobile device tree.
+
+config MACH_SONY_LILAC_DCM
+        bool "Sony Mobile Lilac Dcm"
+        depends on ARCH_SONY_YOSHINO
+        help
+        Support for the SONY Mobile Lilac Dcm device
+        which is based on SONY Yoshino platform.
+        If you enable this config,
+        please use SONY Mobile device tree.
 
 config ARCH_MSMHAMSTER
 	bool "Enable Support for Qualcomm Technologies Inc MSMHAMSTER"
