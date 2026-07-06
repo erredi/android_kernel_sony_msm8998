@@ -607,6 +607,12 @@
 			gpios = <&tlmm 112 0x0>;
 			debounce-interval = <10>;
 		};
+
+		sim2_det {
+			label = "sim2-detection";
+			gpios = <&tlmm 63 0x0>;
+			debounce-interval = <10>;
+		};
 	};
 
 	ramoops {
@@ -3517,6 +3523,7 @@
 
 &sdhc_2 {
 	cd-gpios = <&tlmm 95 GPIO_ACTIVE_HIGH>;
+	uim2-gpios = <&tlmm 39 GPIO_ACTIVE_HIGH>;
 };
 
 &spmi_bus {
